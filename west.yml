@@ -1,0 +1,18 @@
+manifest:
+  defaults:
+    remote: szkudlik-homeAutomation
+
+  remotes:
+    - name: szkudlik-homeAutomation
+      url-base: https://github.com/szkudlik-homeAutomation
+
+  projects:
+    - name: Common_code
+      path: src/Common_code
+      repo-path: Common_code.git
+      import: 
+        path-prefix: HomeAutomation
+      revision: ca0fd647958c1d3872f1b856661938a319b0a784
+
+  self:
+      path: HomeAutomation
